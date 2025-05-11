@@ -6,7 +6,9 @@ const nextConfig = {
     NEXT_PUBLIC_BACKEND_URL: process.env.NEXT_PUBLIC_BACKEND_URL,
   },
   images: {
-    domains: ["upload.wikimedia.org"],
+    domains: ["upload.wikimedia.org",
+      "images.unsplash.com",
+    ],
   },
 };
 
